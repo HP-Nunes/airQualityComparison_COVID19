@@ -1,0 +1,43 @@
+---
+title: "PM2.5 Pollution in the Time of COVID-19, San Francisco-CA"
+author: Hadrien N Picq
+date: "`r Sys.Date()`"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+---
+
+<!-- import Monserrat and PT Serif Google fonts -->
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+</style>
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+-------------------------------------
+Row
+-------------------------------------
+    
+### Chart 1
+    
+```{r}
+
+```
+   
+Row
+-------------------------------------
+    
+### Chart 2
+    
+```{r}
+
+```
+    
+### Chart 3
+
+```{r}
+
+```
+
